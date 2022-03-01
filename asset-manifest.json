@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dicom_veiwer/static/css/main.756e7db0.chunk.css",
+    "main.js": "/dicom_veiwer/static/js/main.d8653665.chunk.js",
+    "main.js.map": "/dicom_veiwer/static/js/main.d8653665.chunk.js.map",
+    "runtime-main.js": "/dicom_veiwer/static/js/runtime-main.2dc60687.js",
+    "runtime-main.js.map": "/dicom_veiwer/static/js/runtime-main.2dc60687.js.map",
+    "static/js/2.0ed82399.chunk.js": "/dicom_veiwer/static/js/2.0ed82399.chunk.js",
+    "static/js/2.0ed82399.chunk.js.map": "/dicom_veiwer/static/js/2.0ed82399.chunk.js.map",
+    "index.html": "/dicom_veiwer/index.html",
+    "static/css/main.756e7db0.chunk.css.map": "/dicom_veiwer/static/css/main.756e7db0.chunk.css.map",
+    "static/js/2.0ed82399.chunk.js.LICENSE.txt": "/dicom_veiwer/static/js/2.0ed82399.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dc60687.js",
+    "static/js/2.0ed82399.chunk.js",
+    "static/css/main.756e7db0.chunk.css",
+    "static/js/main.d8653665.chunk.js"
+  ]
+}
