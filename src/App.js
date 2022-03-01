@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Route,
+  Link,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 // Routes
 import Viewer from "./Component/Viewer.js";
 
@@ -8,8 +14,11 @@ export default class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path='/grid/:id/'>
+          <Route exact path='/grid/:id'>
             <Viewer />
+          </Route>
+          <Route>
+            <Redirect to='/grid/d15c251e-cbca-442f-8de2-8dd12a45f2cf' />
           </Route>
         </Switch>
       </Router>
