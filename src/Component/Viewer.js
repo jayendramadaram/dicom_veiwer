@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CornerstoneViewport from "react-cornerstone-viewport";
 import { withRouter } from "react-router";
-import './Viewer.css';
+import "./Viewer.css";
 
 class Viewer extends Component {
   stack1 = ["jay"];
@@ -58,12 +58,16 @@ class Viewer extends Component {
 
   render() {
     return (
-      <div id="viewer">
+      <div id='viewer'>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           {this.state.viewports.map((vp) => (
             <CornerstoneViewport
               key={vp}
-              style={{ minWidth: "100vw", height: "256px", flex: "1" }}
+              style={{
+                minWidth: "35vw",
+                height: "256px",
+                flex: "1",
+              }}
               tools={this.state.tools}
               imageIds={this.state.imageIds}
               imageIdIndex={this.state.imageIdIndex}
@@ -105,7 +109,6 @@ class Viewer extends Component {
                 <option value='Eraser'>Eraser</option>
               </select>
             </div>
-
           </form>
         </div>
       </div>
