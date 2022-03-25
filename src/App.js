@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import {
   HashRouter as Router,
   Route,
-  Link,
   Switch,
   Redirect,
 } from "react-router-dom";
